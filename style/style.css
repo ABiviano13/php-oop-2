@@ -1,0 +1,18 @@
+/* RESET */
+.container{
+    font-size: 12px;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+/* STYLE */
+
+
+.img-card{
+    height: 50%;
+    margin: 0 auto;
+}

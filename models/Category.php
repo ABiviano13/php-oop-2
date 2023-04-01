@@ -3,12 +3,15 @@
 class Category {
 
     public $tipology;
-    public $img;
 
-    function __construct($_tipology, $_url){
+    function __construct($_tipology){
         if($_tipology == "Cane" || "Gatto"){
             $this->tipology = $_tipology;
         }
+    }
+
+    public function getTipology() {
+        return $this->tipology;
     }
 }
 
