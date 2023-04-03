@@ -1,6 +1,10 @@
 <?php
 
+require_once __DIR__ . "/../traits/Tipology.php";
+
 class Product {
+    use Tipology;
+
     public $name;
     public $price;
     public $description;
@@ -31,9 +35,9 @@ class Product {
         return $this->description;
     }
 
-    public function getTipology() {
-        return $this->tipology;
-    }
+    // public function getTipology() {
+    //     return $this->tipology;
+    // }
 
     public function getSrc() {
         return $this->img;
