@@ -1,36 +1,36 @@
 <?php
 require_once './models/Product.php';
 
-$snack_dog = new Product('Bastoncini', '2,99', 'Bastoncini Vegetali per cane', 'Cane', './img/snack-per-cani.png');
+$snack_dog = new Product('Bastoncini', '2,99', 'Cane', './img/snack-per-cani.png',  'Bastoncini Vegetali per cane');
 
 // var_dump($snack_dog);
 
-$game_dog = new Product('Corda osso', '4,19', 'Gioco per cane', 'Cane', './img/corda-per-cane.jpg');
+$game_dog = new Product('Corda osso', '4,19', 'Cane', './img/corda-per-cane.jpg', 'Gioco per cane');
 
 // var_dump($game_dog);
 
-$outfit_dog = new Product('Outfit IT', '15,00', 'Outfit IT per cane', 'Cane', './img/outfit_cane.jpg');
+$outfit_dog = new Product('Outfit IT', '15,00', 'Cane', './img/outfit_cane.jpg', 'Outfit IT per cane');
 
 // var_dump($outfit_dog);
 
-$home_dog = new Product('Cuccia', '116,00', 'Cuccia per cane', 'Cane', './img/cuccia_cane.jpg');
+$home_dog = new Product('Cuccia', '116,00', 'Cane', './img/cuccia_cane.jpg', 'Cuccia per cane');
 
 // var_dump($home_dog);
 
 
-$snack_cat = new Product('Snack', '19,90', 'Bastoncini Vegetali per gatto', 'Gatto', './img/snack-per-gatti.jpg');
+$snack_cat = new Product('Snack', '19,90', 'Gatto', './img/snack-per-gatti.jpg', 'Bastoncini Vegetali per gatto');
 
 // var_dump($snack_cat);
 
-$game_cat = new Product('Tiragraffi', '169,00', 'Gioco per gatto', 'Gatto', './img/tiragraffi-per-gatti.jpg');
+$game_cat = new Product('Tiragraffi', '169,00', 'Gatto', './img/tiragraffi-per-gatti.jpg', 'Gioco per gatto');
 
 // var_dump($game_cat);
 
-$outfit_cat = new Product('Outfit Dottore', '20,00', 'Outfit Dottore per gatto', 'Gatto', './img/outfit_gatto.jpg');
+$outfit_cat = new Product('Outfit Dottore', '20,00', 'Gatto', './img/outfit_gatto.jpg', 'Outfit Dottore per gatto');
 
 // var_dump($outfit_cat);
 
-$home_cat = new Product('Cuccia', '116,00', 'Cuccia per gatto', 'Gatto', './img/cuccia_gatto.jpg');
+$home_cat = new Product('Cuccia', '116,00', 'Gatto', './img/cuccia_gatto.jpg', 'Cuccia per gatto');
 
 // var_dump($home_cat);
 

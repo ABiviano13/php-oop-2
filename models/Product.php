@@ -11,14 +11,16 @@ class Product {
     public $tipology;
     public $img;
 
-    function __construct($_name, $_price, $_description, $_tipology, $_img) {
+    function __construct($_name, $_price, $_tipology, $_img, $_description) {
         $this->name = $_name;
         $this->price = $_price;
         $this->description = $_description;
         $this->img = $_img;
 
-        if($_tipology == "Cane" || "Gatto"){
+        if($_tipology == 'Cane' || 'Gatto'){
             $this->tipology = $_tipology;
+        }else{
+            throw new Exception('La tipologia inserita non è presente nel sito');
         }
 
     }
